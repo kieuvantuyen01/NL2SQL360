@@ -18,11 +18,18 @@ report_dataset: "spider_dev"
 # Set to null if you want to report all history evaluations.
 report_evaluation:
   # - "SuperSQL"
-  - "C3SQL"
+  - "RESDSQL_3B_NATSQL_500"
+  - "RESDSQL_3B_NATSQL_1000"
+  - "RESDSQL_3B_NATSQL_2000"
+  - "RESDSQL_3B_NATSQL_3000"
+  - "RESDSQL_3B_NATSQL_4000"
+  - "RESDSQL_3B_NATSQL_5000"
+  - "RESDSQL_3B_NATSQL_6000"
+  - "RESDSQL_3B_NATSQL_7000"
 
 # The metric(s) name to report, including "ex", "em", "ves", "rves", "f1", "qvt". List each name in the following:
 metric:
-  - "em"
+  # - "em"
   - "ex"
   # - "ves"
   # - "rves"
@@ -51,4 +58,4 @@ scenario:
     expression: "SUBQUERY > 0 && JOIN > 0"
 
 # The report save path in CSV format
-save_path: "./report.csv"
+save_path: "./report_RESDSQL_3B_NatSQL.csv"

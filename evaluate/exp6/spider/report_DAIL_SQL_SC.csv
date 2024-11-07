@@ -1,0 +1,5 @@
+,Subset,Evaluation,EX
+0,BI,DAIL_SQL_SC,
+1,Join,DAIL_SQL_SC,
+2,Overall,DAIL_SQL_SC,
+3,Subquery,DAIL_SQL_SC,

@@ -13,7 +13,7 @@ sql_dialect: "SQLite"
 
 # The unique evaluation name to be saved in NL2SQL360
 # eval_name: "SuperSQL"
-eval_name: "C3SQL"
+eval_name: "DAIL_SQL"
 
 # The dataset name which has been imported in NL2SQL360
 eval_dataset: "spider_dev"
@@ -26,13 +26,14 @@ eval_dataset: "spider_dev"
 # "f1": "Soft-F1 Score"
 eval_metrics:
   - "ex"
-  - "em"
+  # - "em"
   # - "ves"
   # - "rves"
   # - "f1"
 
 # The model predited file in the dataset, containing predited sqls in each line.
-pred_sqls_file: "tests/SuperSQL.sql"
+# pred_sqls_file: "tests/SuperSQL.sql"
+pred_sqls_file: "/home/hung1832001nb/NL2SQL360/tests/predict_sqls/spider_dev/DAILSQL.sql"
 
 # Whether to enable Spider offcial evaluation script, generally set to True if the dataset is Spider or Spider series (e.g., Spider-Syn).
 enable_spider_eval: True

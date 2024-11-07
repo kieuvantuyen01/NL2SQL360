@@ -1,0 +1,5 @@
+,Subset,Evaluation,EX
+0,BI,DAIL_SQL,48.28
+1,Join,DAIL_SQL,72.79
+2,Overall,DAIL_SQL,83.08
+3,Subquery,DAIL_SQL,74.7

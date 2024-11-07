@@ -18,11 +18,18 @@ report_dataset: "spider_dev"
 # Set to null if you want to report all history evaluations.
 report_evaluation:
   # - "SuperSQL"
-  - "C3SQL"
+  - "LLAMA3_8B_500"
+  - "LLAMA3_8B_1000"
+  - "LLAMA3_8B_2000"
+  - "LLAMA3_8B_3000"
+  - "LLAMA3_8B_4000"
+  - "LLAMA3_8B_5000"
+  - "LLAMA3_8B_6000"
+  - "LLAMA3_8B_7000"
 
 # The metric(s) name to report, including "ex", "em", "ves", "rves", "f1", "qvt". List each name in the following:
 metric:
-  - "em"
+  # - "em"
   - "ex"
   # - "ves"
   # - "rves"
@@ -51,4 +58,4 @@ scenario:
     expression: "SUBQUERY > 0 && JOIN > 0"
 
 # The report save path in CSV format
-save_path: "./report.csv"
+save_path: "./report_Llama3_8B.csv"

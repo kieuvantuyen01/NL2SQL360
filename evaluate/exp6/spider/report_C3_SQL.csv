@@ -1,0 +1,5 @@
+,Subset,Evaluation,EX
+0,BI,C3_SQL,41.38
+1,Join,C3_SQL,73.28
+2,Overall,C3_SQL,82.01
+3,Subquery,C3_SQL,68.67

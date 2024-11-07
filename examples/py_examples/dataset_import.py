@@ -7,7 +7,7 @@ core = Core(core_args)
 
 dataset_args = DatasetArguments(
     dataset_name="spider_dev",
-    dataset_dir="../data/spider",
+    dataset_dir="./data/spider",
     samples_file="dev.json",
     database_dir="database",
     tables_file="tables.json",

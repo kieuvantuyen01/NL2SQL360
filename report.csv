@@ -1,0 +1,13 @@
+,Subset,Evaluation,EM,EX
+0,BI,C3SQL,,
+1,BI,DINSQL,,68.97
+2,BI,SuperSQL,,51.72
+3,Join,C3SQL,,
+4,Join,DINSQL,,75.74
+5,Join,SuperSQL,,80.64
+6,Overall,C3SQL,,
+7,Overall,DINSQL,,82.79
+8,Overall,SuperSQL,,87.04
+9,Subquery,C3SQL,,
+10,Subquery,DINSQL,,81.93
+11,Subquery,SuperSQL,,69.88

@@ -595,9 +595,11 @@ def evaluate(golds, preds, db_dir, etype, kmaps, plug_value, keep_distinct, prog
             schema = Schema(get_schema(db))
             try:
                 g_sql = get_sql(schema, g_str)
-            except:
-                parse_g_sql_error_flag = True
+            except Exception as e:
+                logger.warning(f"Error parsing Gold SQL: {g_str}")
+                logger.warning(f"Error message: {str(e)}")
                 g_sql = deepcopy(_EMPTY_SQL)
+                parse_g_sql_error_flag = True
             hardness = evaluator.eval_hardness(g_sql)
             if idx > 3:
                 idx = "> 4"

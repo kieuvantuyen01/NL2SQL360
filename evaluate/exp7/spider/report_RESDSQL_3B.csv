@@ -1,0 +1,5 @@
+,Subset,Evaluation,EX
+0,BI,RESDSQL_3B,17.24
+1,Join,RESDSQL_3B,69.12
+2,Overall,RESDSQL_3B,81.82
+3,Subquery,RESDSQL_3B,55.42

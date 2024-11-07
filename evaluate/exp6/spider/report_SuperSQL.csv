@@ -1,0 +1,5 @@
+,Subset,Evaluation,EX
+0,BI,SuperSQL,51.72
+1,Join,SuperSQL,80.64
+2,Overall,SuperSQL,87.04
+3,Subquery,SuperSQL,69.88
